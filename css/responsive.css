@@ -178,6 +178,7 @@ a:focus {
 height: calc(100% - 80px);*/
 
 .slider_section {
+	width:100%;
   height: calc(100% - 80px);
   display: -webkit-box;
   display: -ms-flexbox;
