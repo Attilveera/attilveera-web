@@ -175,7 +175,7 @@ a:focus {
 .slider_section {
   max-width: 100%;
   width:100%;
-  height: auto;
+  height:500px;
   background-attachment: fixed;
   object-fit: cover;
   object-position: center;
@@ -185,42 +185,7 @@ a:focus {
 }
 
 
-/*banner images for different devices*/
-@media only screen and (min-width: 960px) {
-  .slider_section
-  {
-    width: 960px;
-    height: auto;
-  }
-@media only screen and (min-width: 1440px) {
-  .slider_section
-  {
-    width: 1440px;
-    height: auto;
-  }
-}
-@media only screen and (min-width: 2000px) {
-  .slider_section
-  {
-    width: 2000px;
-    height: auto;
-  }
-}
-@media only screen and (max-device-width: 480px) {
- .slider_section
-  {
-    width: 480px;
-    height: auto;
-  }
-}
-@media only screen and (device-width: 768px) {
- .slider_section
-  {
-    width: 768px;
-    height: auto;
-  }
-}
-/*end of banner images for different devices*/
+
 
 .slider_section .glass {
   position: absolute;
