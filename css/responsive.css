@@ -173,6 +173,7 @@ a:focus {
 /* slider section */
 
 .slider_section {
+  width:100%;
   height: calc(100% - 80px);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -180,8 +181,11 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-          background-size: 100% 100%;
+  background-position:center;
+  background-size: 100% 100%;
   background-image: url(../images/a.jpg);
+  background-repeat:no-repeat;
+	background-size:contain;
 }
 
 .slider_section .glass {
