@@ -176,6 +176,7 @@ a:focus {
 
   .slider_section {
     width:100%;
+    background-attachment: fixed;
     height: 500px;
     object-fit: cover;
     object-position: bottom;
