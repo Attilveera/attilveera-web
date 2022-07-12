@@ -615,16 +615,6 @@ body {
   .quality_section .img-container .img-box img {
     width: 100%;
   }
-
-  /*video section*/
-.quality_section .img-container .img-box video {
-    width: 100%;
-    height: auto;
-    border: 5px solid rgba(94, 190, 10, 0.518);
-    border-radius: 5px;
-  }
-  
-  /*end of video section*/
   
   .offer_section {
     background-color: #bcc4f2;
