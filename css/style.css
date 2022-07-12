@@ -610,6 +610,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     height: 100%;
+    margin-top: 5%;
   }
   
   .quality_section .img-container .img-box img {
