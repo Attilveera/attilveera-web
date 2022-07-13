@@ -180,7 +180,7 @@ a:focus {
   object-fit: cover;
   object-position: center;
   background-position:center center;
-  background-image: url(../images/a.jpg);
+  background-image: url(../images/banner/final_desktop_banner.jpg);
     background-size:cover;
 }
 
@@ -188,26 +188,26 @@ a:focus {
 /*banner images for different devices*/
 @media only screen and (max-width: 320px) {
   /* Small screen, non-retina */
-  .slider_section { background-image: url("../images/a_320.jpg"); }
+  .slider_section { background-image: url("../images/banner/final_mobile_banner.jpg"); }
 }
 @media
 only screen and (min-resolution: 2dppx) and (max-width: 320px) {
   /* Small screen, retina */
-  .slider_section { background-image: url("../images/a_320.jpg"); }
+  .slider_section { background-image: url("../images/banner/final_mobile_banner.jpg"); }
 }
 @media only screen and (min-width: 321px) and (max-width: 538px) {
   /* Medium screen, non-retina */
-  .slider_section { background-image: url("../images/a_538.jpg"); }
+  .slider_section { background-image: url("../images/banner/final_mobile_banner.jpg"); }
 }
 @media
 only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px) {
   /* Medium screen, retina */
-  .slider_section { background-image: url("../images/a_538.jpg"); }
+  .slider_section { background-image: url("../images/banner/final_mobile_banner.jpg"); }
 }
 @media
 only screen and (min-resolution: 2dppx) and (min-width: 539px) {
   /* Large screen, retina */
-  .slider_section { background-image: url("../images/a_resp.jpg"); }
+  .slider_section { background-image: url("../images/banner/final_mobile_banner.jpg"); }
 }
 /*end of banner images for different devices*/
 
