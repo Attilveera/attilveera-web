@@ -45,7 +45,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #38e821d6;
+  color: #7B3F00;
 }
 
 /*header section*/
@@ -58,7 +58,7 @@ body {
 }
 
 .header_section {
-  background-color: #ae6a0ab5;
+  background-color: #7B3F00;
 }
 
 .header_section .container-fluid {
@@ -484,20 +484,20 @@ span:nth-child(18) {
 }
 
 .glass_section {
-  background-color: #38e8215e;
+  background-color: #7b400038;
 }
 
 .glass_section .heading_container h2 {
-  color: #6f6e6e;
+  color: #7B3F00;
   margin-bottom: 35px;
 }
 
 .glass_section .heading_container h2::first-letter {
-  color: #000000;
+  color: #7B3F00;
 }
 
 .glass_section .heading_container h2 span {
-  color: #2e303c;
+  color: #7B3F00;
 }
 
 .glass_section .glass_container {
@@ -549,7 +549,7 @@ span:nth-child(18) {
 }
 
 .glass_section .glass_container .box .price a {
-  color: #bcc4f2;
+  color: #7B3F00;
   text-decoration: underline;
 }
 
@@ -694,7 +694,7 @@ span:nth-child(18) {
 }
 
 .buy_section .heading_container h2 .s-2 {
-  color: #6f6e6e;
+  color: #7B3F00;
 }
 
 .buy_section .box {
@@ -783,10 +783,11 @@ span:nth-child(18) {
   margin-top: 15px;
 }
 
-/* contact section */
+/* contact section \
+background-image: url(../images/enquire_bg.jpg);*/
 .contact_section {
-  background-image: url(../images/enquire_bg.jpg);
-  background-color: #c9f0a0;
+  
+  background-color: #7b400038;
   color: #ffffff;
 }
 
@@ -966,7 +967,7 @@ span:nth-child(18) {
 }
 
 .footer_section a {
-  color: #127505d6;
+  color: #7B3F00;
 }
 
 
@@ -1089,29 +1090,29 @@ span:nth-child(18) {
 .glass_section .container .glass_container .corners {
   border-radius: 5px;
   
-  width: 150px;
-  height: 200px;  
+  width: 80px;
+  height: 50px;  
   margin-top: 0.5%;
   margin-bottom: 0.5%;
-  top: 50%;
-  bottom: 50%;
+  top: 20%;
+  bottom: 20%;
   display: inline-block;
 }
 
 
 .glass_section .container .glass_container .corners .circle
 {
-  background-color: #15842252;
-  width: 90px;
-  height: 90px;
+  background-color: #7B3F00;
+  width: 80px;
+  height:50px;
   margin-left: auto;
   margin-right: auto;
-  -moz-border-radius: 70px; 
-  -webkit-border-radius: 70px; 
-  border-radius: 70px;
-  line-height: 90px;
-  font-size: 25px;
-  color: rgb(0, 0, 0);
+  -moz-border-radius: 10px; 
+  -webkit-border-radius: 10px; 
+  border-radius: 10px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #FFFFFF;
   text-align: center;
   }
 
@@ -1389,7 +1390,8 @@ body {font-family: Verdana, sans-serif; margin:0}
   border-radius: 10px;
 }
 .glass_section .container .glass_container .product1 .slideshow-container {
-  max-width: 1000px;
+  width: 100%;
+  max-width: 400px;
   position: relative;
   margin:20px auto;
   border-radius: 10px;
