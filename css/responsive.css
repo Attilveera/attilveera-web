@@ -1099,6 +1099,47 @@ background-image: url(../images/enquire_bg.jpg);*/
   display: inline-block;
 }
 
+.glass_section .container .glass_container .rounded-lg {
+  border-radius: 0.5rem !important;
+  border-color: #7B3F00;
+}
+
+.glass_section .container .glass_container .text-small {
+  font-size: 0.9rem !important;
+}
+
+.glass_section .container .glass_container .custom-separator {
+  width: 3rem;
+  height: 3px;
+  border-radius: 1rem;
+  border-color: #7B3F00;
+}
+
+.glass_section .container .glass_container .text-uppercase {
+  letter-spacing: 0.2em;
+}
+
+.glass_section .container .glass_container .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #7B3F00 !important;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+.glass_section .container .glass_container body {
+  background: #7B3F00;
+  background: -webkit-linear-gradient(to right, #7B3F00, #7B3F00);
+  background: linear-gradient(to right, #7B3F00, #7B3F00);
+  color: #514B64;
+  min-height: 60vh;
+  border-color: #7B3F00;
+}
+
 
 .glass_section .container .glass_container .corners .circle
 {
@@ -1115,6 +1156,8 @@ background-image: url(../images/enquire_bg.jpg);*/
   color: #FFFFFF;
   text-align: center;
   }
+
+  
 
 .glass_section .container .glass_container .horizontal { 
  
@@ -1376,6 +1419,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 .glass_section .container .glass_container #product1{
   height: auto;
   width: 100%;
+  background-color: transparent;
 }
 
 /*Product-1 Image Slider*/
@@ -1419,13 +1463,13 @@ body {font-family: Verdana, sans-serif; margin:0}
   background-color: rgba(0,0,0,0.8);
 }
 .glass_section .container .glass_container .product1 .text {
-  color: #0909e8;
+  color: #7B3F00;
   font-size: 15px;
   padding: 8px 8px;
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
 .glass_section .container .glass_container .product1 .numbertext {
   color: #f2f2f2;
