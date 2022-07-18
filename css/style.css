@@ -615,7 +615,48 @@ span:nth-child(18) {
 
 .quality_section .img-container .img-box img {
   width: 100%;
+  
 }
+
+/*image slider for service section*/
+
+.quality_section .img-container .img-box .single-box img {
+  position: relative;
+  object-fit: contain;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  background: #7b400038;
+  opacity: 0;
+  transform: scale(1.5) rotate(15deg);
+  -webkit-animation: animate 32s infinite;
+  animation: animate 32s infinite;
+}
+
+.quality_section .img-container .img-box .single-box:nth-child(3) img {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+}
+.quality_section .img-container.img-box .single-box:nth-child(2) img {
+  -webkit-animation-delay: 16s;
+  animation-delay: 16s;
+}
+.quality_section .img-container .img-box .single-box:nth-child(1) img {
+  -webkit-animation-delay: 24s;
+  animation-delay: 24s;
+}
+@keyframes animate {
+  25% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+
+/*end of image slider for service section*/
 
 .offer_section {
   background-color: #bcc4f2;
